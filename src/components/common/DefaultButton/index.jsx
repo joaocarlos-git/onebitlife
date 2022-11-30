@@ -9,10 +9,10 @@ export default function DefaultButton({
 }) {
     return(
         <TouchableOpacity
-        style={[styles.button, {width: width, height: height} ]}
+        style={[styles.button, {width: width, height: height}]}
         activeOpacity={0.7}
         onPress={handlePress}>
-        <Text> {buttonText}</Text>        
+        <Text>{buttonText}</Text>        
         </TouchableOpacity>
         );
 }
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     },
 
     buttonText: {
-        color: "#FFFFFF",
+        color: "#0000ff",
         fontWeight: "bold",
         fontSize: 20,
     },

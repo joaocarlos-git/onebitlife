@@ -5,7 +5,6 @@ import{ useNavigation }from "@react-navigation/native";
 
 import LifeStatus from "../../components/common/LifeStatus";
 
-
 export default function Start(){
 
 const handleNavAppExplanation = () => {
