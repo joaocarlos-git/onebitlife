@@ -58,4 +58,4 @@ const styles = StyleSheet.create({
         marginLeft: 95,
         position: "absolute",
     },
-})
+});
